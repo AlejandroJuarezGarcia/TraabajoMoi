@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Seccion login*/
+form{
+    width: 40rem;
+    margin: auto;
+}
+img.imagen{
+    width: 20%;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: rgb(243, 243, 173);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0 ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+button:hover{
+    box-shadow: inset 1000px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.container{
+    padding: 16px;
+}
+
+/*Seccion menu*/
+
+.grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+.grid div img{
+    text-align: center;
+    width: 15rem;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 1 / 4 / 2 / 5; }
+.div5 { grid-area: 1 / 5 / 2 / 6; }
+/*
+img {
+    width: fit-content;
+}
+
+.grid div{ 
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: ;
+}
+a:hover{
+    transform: scale(1,5);
+} */
+
+.celda{
+    border-radius: 15px;
+    background-color: rgb(219, 62, 88);
+    text-align: center;
+    transition: .5s ease-in-out;
+    margin-top: 2rem;
+    color: white;
+}
+.celda:hover{
+    transform: translatey(-3rem)
+}
+
+div#menu{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px,250px) );
+    margin: 5% 0 0 0;
+    width:80%;
+    height: 20rem;
+}
+#centrar{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
